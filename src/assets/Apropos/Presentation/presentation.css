@@ -1,0 +1,111 @@
+.text-apropos{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    font-size: 6vw;
+    color: #2bbd68;
+    opacity: var(--opacity, 1);
+    background-clip: text;
+    letter-spacing: var(--spacing, 0px);
+    position: fixed; /* Ajoutez ici pour le positionnement relatif */
+    left: var(--gauche,56%); /* Centrez horizontalement */
+    top: var(--haut,50%);
+    transform: translate(-50%, -50%); /* Décalage nécessaire pour le centrage */
+    z-index: 10;
+    overflow: hidden;
+}
+
+
+
+.containerTitreApropos{
+    display: flex;
+    width: 100%;
+    height: 4000px;
+    position: relative;
+}
+.containerApropos{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    position: relative;
+
+}
+
+
+.pav1{
+    position: fixed;
+    width: 320px;
+    left: 36.5%;
+    top: 20%;
+    color: white;
+
+}
+.pav1 h1{
+    font-weight: 900;
+    text-align: center;
+    color: white;
+    margin: 0;
+    margin-bottom: 20px;
+}
+.ecriture{
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    letter-spacing: 2px;
+    border-right: 2px solid #2bbd68;
+    
+}
+
+.l13l{
+
+    width: 140px;
+    animation: 
+    typing 3.5s steps(13, end),
+    cursor .4s step-end infinite alternate;
+}
+
+.l15l{
+
+    width: 160px;
+    animation: 
+    typing 3.5s steps(15, end),
+    cursor .4s step-end infinite alternate;
+
+}
+
+.l8l{
+        width: 85px;
+        animation: 
+        typing 3.5s steps(8, end),
+        cursor .4s step-end infinite alternate;
+}
+
+.l35l{
+
+    width: 285px;
+    animation: 
+    typing 3.5s steps(32, end),
+    cursor .4s step-end infinite alternate;
+
+}
+
+.link{
+    text-decoration: none;
+    color: #2bbd68;
+    font-weight: bold;
+    transition: 0.5s;
+
+}
+.link:hover{
+    color: #00ff6a;
+    transition: 0.5s;
+
+}
+@keyframes cursor {
+    50% { border-color: transparent;}
+}
+
+@keyframes typing {
+    from { width: 0 }
+
+}

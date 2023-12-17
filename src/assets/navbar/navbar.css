@@ -1,0 +1,69 @@
+.sidebar-fixed {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    padding-top: 20px;
+    height: 100vh;
+    overflow-y: auto;
+    background-color: #363636; /* couleur de fond */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 0px;
+    
+
+    
+  }
+  .part2{
+    display: flex;
+     /* Alignement vertical */
+    justify-content: center; /* Alignement horizontal */
+    height: 30vh;
+    
+  }
+
+  .nav-link {
+    display: flex;
+    align-items: center;
+    font-size: 1.25rem;
+  transition: color 0.3s ease-in-out, transform 0.3s ease-in-out; 
+  color: white;
+  }
+  
+  .nav-link i {
+    margin-right: 10px;
+  }
+
+  .nav-link:hover, .nav-link:focus {
+    color: #2bbd67; /* ou la couleur que vous préférez */
+    transform: scale(1.05); /* légère augmentation de la taille */
+    text-decoration: none; /* optionnel : supprime le soulignement */
+  }
+
+  .logo-item {
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 50px; /* Espace du haut de la page */
+    margin-bottom: 30px; /* Espace entre le logo et les liens de navigation */
+  }
+  
+  /* Style pour l'image du logo */
+  .logo-image {
+    max-width: 45%;
+    border-radius: 20px;
+    height: auto;
+    display: block; /* pour s'assurer que l'image ne prenne pas plus de place que nécessaire */
+    margin-left: auto; /* centre l'image horizontalement */
+    margin-right: auto; /* centre l'image horizontalement */
+  }
+  
+  /* Style pour le texte du logo */
+  .logo-text {
+    font-size: 2rem;
+    color: #fff;
+    margin-top: 10px; /* Espace entre l'image et le texte en dessous */
+  }
+  .nav.flex-column {
+    padding-left: 0; /* Enlève le padding par défaut de la liste */
+  }
