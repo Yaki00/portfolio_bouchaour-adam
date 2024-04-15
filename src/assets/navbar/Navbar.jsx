@@ -30,7 +30,7 @@ function Sidebar() {
     <div className="col-md-2 sidebar-fixed">
       <div>
         <li className="nav-item logo-item">
-          <img src="/img4.jpg" alt="Logo" className="logo-image" />
+          <img src="/portfolio_bouchaour-adam/img4.jpg" alt="Logo" className="logo-image" />
           <p className="logo-text">Adam BOUCHAOUR</p>
         </li>
       </div>
@@ -43,6 +43,11 @@ function Sidebar() {
         <li className="nav-item">
           <a className="nav-link" href="#about">
             <i className="bi bi-person"></i> À propos
+          </a>
+        </li>
+        <li className="nav-item">
+          <a className="nav-link" href="#ecole">
+            <i className="bi bi-book"></i> École
           </a>
         </li>
         <li className="nav-item">

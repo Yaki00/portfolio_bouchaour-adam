@@ -139,3 +139,23 @@
       opacity: 0.5;
     }
   }
+
+
+
+  @media (max-width: 1920px) {
+    .myCard {
+      background-color: transparent;
+      position: fixed;
+      width: 290px;
+      height: 700px;
+      perspective: 1000px;
+      left: 75.5%;
+      top: 08%;
+      display: block;
+      scale: 0.7;
+      transform: translateX(500%); /* déplacer la carte en dehors de l'écran par défaut */
+      transition: transform 1s ease-in-out;
+      
+    }
+  }
+  

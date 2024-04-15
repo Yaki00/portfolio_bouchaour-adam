@@ -51,7 +51,7 @@ function Presentation() {
                     <p ref={textPrenom} className='ecriture l13l'> Prénom :  <strong>Adam</strong></p>
                     <p ref={textNom} className='ecriture l15l'> Nom :  <strong>Bouchaour</strong></p> 
                     <p ref={textAge} className='ecriture l8l'> Age :  <strong>24</strong></p> 
-                    <p ref={textProfession} className='ecriture l35l'> Profession :  <strong>étudiant à l' <a className='link' href="https://ecole-ipssi.com/">IPSSI</a> </strong></p>    
+                    <p ref={textProfession} className='ecriture l35l'> Profession :  <strong>étudiant à l' <a className='link' href="https://esic.fr/">ESIC</a> </strong></p>    
             </div>
         </>
     );

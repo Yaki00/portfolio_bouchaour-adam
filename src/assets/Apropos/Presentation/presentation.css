@@ -109,3 +109,27 @@
     from { width: 0 }
 
 }
+
+@media (max-width: 1920px) {
+    .pav1{
+        position: fixed;
+        width: 320px;
+        left: 36.5%;
+        top: 25%;
+        color: white;
+    
+    }
+  }
+  
+  @media (max-height: 880px) {
+    .pav1{
+        position: fixed;
+        width: 320px;
+        scale: 0.8;
+        left: 36.5%;
+        top: 20%;
+        color: white;
+    
+    }
+  }
+  

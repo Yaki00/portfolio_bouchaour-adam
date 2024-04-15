@@ -9,19 +9,13 @@ function Cv() {
 
     const handleScroll = () => {
         const scrollY = window.scrollY;
-        if (scrollY >= 5300) {
+        if (scrollY >= 5300 && scrollY < 6000) {
             cvDiv.current.style.display = 'block';
-            if(scrollY >=5301){
-                setcvIsVisible(!cvIsVisible);
-            }
-             else if (scrollY < 5600 && cvPosition !== 'fixed') {
-                setCvPosition('fixed');
-            }
-        } else if (scrollY < 5300) {
+            setCvPosition('fixed');
+            setcvIsVisible(true);
+        } else {
             cvDiv.current.style.display = 'none';
-        }
-        if (scrollY >= 6000 ) {
-            cvDiv.current.style.display = 'none';
+            setcvIsVisible(false);
         }
     };
 

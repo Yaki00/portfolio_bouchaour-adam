@@ -1,0 +1,130 @@
+.photo-stack {
+    position: relative;
+    width: fit-content;
+    margin: 40px auto;
+    left: -35%;
+    top: -40%;
+    transform: translate(-50%, -50%);
+}
+
+.btnecole{
+    background-color: #2bbd68;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    color: white;
+    font-weight: 500;
+    font-size: 1em;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-top: 200px;
+    margin-bottom: 20px;
+    z-index: 10;
+
+}
+.btnecole:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.cardphoto{
+    background-color: rgb(44, 44, 44);
+    box-shadow: 5px 5px 10px 1px rgba(0, 0, 0, 0.438);
+    color: white;
+    display: flex;
+    flex-direction: row;
+    transition: all 0.3s ease;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    align-items: center;
+    margin: 10%;
+    justify-content: space-between;
+    width: 80%;
+    height: 400px;
+    position: relative;
+}
+.stacked-photo {
+    position: absolute;
+    width: 20vw; /* Utilise vw pour la largeur pour être responsive */
+    max-width: 300px; /* Taille maximale de la photo */
+    min-width: 150px; /* Taille minimale de la photo */
+    margin: 1vw;
+    transition: all 0.3s ease;
+    border: 5px solid #fff; /* Bordure pour simuler une photo Polaroid */
+    box-shadow: 5px 8px 10px rgba(0, 0, 0, 0.295);
+}
+.stacked-photo:hover {
+    z-index: 10; /* Place la photo au-dessus des autres */
+    box-shadow: 5px 8px 10px rgb(0, 0, 0);
+}
+
+/* Styles spécifiques pour chaque photo pour les superposer comme dans l'exemple */
+.photo-0 { transform: rotate(-8deg) translate(-40px, -130px); }
+.photo-1 { transform: rotate(6deg) translate(300px, -10px); z-index: 1; }
+.photo-2 { transform: rotate(-4deg) translate(360px, -30px); z-index: 7; }
+.photo-3 { transform: rotate(3deg) translate(-90px, 90px); z-index: 3; }
+.photo-4 { transform: rotate(-2deg) translate(-120px, 40px); z-index: 6; }
+.photo-5 { transform: rotate(10deg) translate(-150px, 0); z-index: 5; }
+.photo-6 { transform: rotate(-1deg) translate(180px, 10px); z-index: 6; }
+/* Ajoute des styles supplémentaires pour plus de photos */
+
+
+
+.btnecole{
+    background-color: #2bbd68;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    color: white;
+    font-weight: 500;
+    font-size: 1em;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-top: 200px;
+    margin-bottom: 20px;
+    z-index: 10;
+    transition: all 0.3s ease;
+}
+
+.btnecole:hover {
+    transform: translateY(-5px); /* Déplace légèrement le bouton vers le haut */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Ajoute une ombre pour l'effet de soulèvement */
+    background-color: #2bbd68;
+}
+
+.cardecole{
+    background-color: rgb(44, 44, 44);
+    box-shadow: 5px 5px 10px 1px rgba(0, 0, 0, 0.438);
+    color: white;
+    display: flex;
+    flex-direction: row;
+    transition: all 0.3s ease;
+    margin-bottom: 20px;
+}
+
+.cardecole.expanded {
+    position: fixed; /* ou 'absolute' selon tes besoins */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+    width: 80%; /* ou toute autre taille appropriée */
+    height: auto;
+    max-height: 90%;
+    overflow-y: auto; /* pour permettre le défilement */
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5); /* effet d'ombre pour ressortir */
+}
+
+.overlay {
+    display: none;
+    /* styles pour obscurcir le reste de la page */
+}
+
+.overlay.show {
+    display: block;
+}
+
+
+
+

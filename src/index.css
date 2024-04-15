@@ -1,3 +1,44 @@
 body{
   background-color: rgb(12, 12, 12);
 }
+
+/* Styliser la barre de défilement pour tous les navigateurs Webkit (Chrome, Safari, etc.) */
+::-webkit-scrollbar {
+  width: 12px; /* Augmenter la largeur pour plus de visibilité */
+  background-color: #f1f1f1; /* Couleur de fond lorsqu'il n'y a pas de défilement */
+}
+
+/* Gère l'arrière-plan de la barre de défilement */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 10px;
+  box-shadow: inset 0 0 5px grey; /* Ajouter une ombre interne pour le relief */
+}
+
+/* Gère l'aspect du curseur de défilement */
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 10px;
+  border: 2px solid #f1f1f1; /* Ajouter une bordure pour le contraste */
+}
+
+/* Change la couleur du curseur lors du survol ou du clic */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+/* Styliser la barre de défilement pour Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #888 #f1f1f1;
+}
+
+/* Effet de transition pour la scrollbar de Firefox */
+* {
+  transition: scrollbar-color 0.3s ease;
+}
+
+/* Change la couleur de la scrollbar lors du survol pour Firefox */
+*:hover {
+  scrollbar-color: #555 #f1f1f1;
+}

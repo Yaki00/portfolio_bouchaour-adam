@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react'; // Ajout de useRef ici
 import "./apropos.css";
-import Competences from "../competences/competences.jsx";
+import Competences from "./competences/competences.jsx";
 import presentation from "./Presentation/presentation.jsx";
 import Presentation from './Presentation/presentation.jsx';
 import Raccourcis from './Raccourcis/Raccourcis';
