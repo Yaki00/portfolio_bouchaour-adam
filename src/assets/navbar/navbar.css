@@ -17,9 +17,12 @@
   }
   .part2{
     display: flex;
+    height: 30vh;
+    min-height: 250px; 
+    width: 100%;
      /* Alignement vertical */
     justify-content: center; /* Alignement horizontal */
-    height: 30vh;
+    
     
   }
 
@@ -27,9 +30,12 @@
     display: flex;
     align-items: center;
     font-size: 1.25rem;
+    justify-content: center;
   transition: color 0.3s ease-in-out, transform 0.3s ease-in-out; 
   color: white;
+  
   }
+  .nav-item{}
   
   .nav-link i {
     margin-right: 10px;

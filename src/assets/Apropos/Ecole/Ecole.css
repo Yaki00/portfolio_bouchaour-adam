@@ -127,4 +127,70 @@
 
 
 
+/* dddddd */
 
+
+/* Timeline.css */
+.timeline {
+    position: relative;
+    padding: 20px 0;
+    list-style: none;
+  }
+  
+  .timeline:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 3px;
+    background: #cccccc;
+    left: 50%;
+    margin-left: -1.5px;
+  }
+  
+  .timeline > li {
+    position: relative;
+    min-height: 50px;
+    margin-bottom: 50px;
+  }
+  
+  .timeline .timeline-panel {
+    position: relative;
+    color: white;
+    width: 46%;
+    float: left;
+    right: 16px;
+    padding: 10px;
+    border: 1px solid #1f1f1f;
+    border-radius: 10px ;
+    background-color: rgb(44, 44, 44);
+    border-radius: 50px;
+  }
+  
+  .timeline > li.timeline-inverted > .timeline-panel {
+    float: right;
+    left: 16px;
+  }
+  
+  .timeline .timeline-badge {
+    color: #fff;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    font-size: 1.4em;
+    text-align: center;
+    position: absolute;
+    top: 16px;
+    left: 50%;
+    margin-left: -10px;
+    background-color: #303030;
+    z-index: 100;
+    border-radius: 50%;
+    box-shadow: 0 0 0 7px #2bbd68;
+  }
+  
+  .timeline-heading h4,
+  .timeline-heading h5 {
+    margin-top: 0;
+    color: inherit;
+  }

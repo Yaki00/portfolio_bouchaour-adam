@@ -94,12 +94,12 @@ function Ecole() {
 
 
     const images = [
-        "https://t2e2i7f7.rocketcdn.me/wp-content/uploads/2022/07/master-cybersecurite-paris-6.png",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQMIPvs5en9lYn39p9H_dQr8WhJd3iNGT50LaoqLWyBg&shttps://t2e2i7f7.rocketcdn.me/wp-content/uploads/2022/07/master-cybersecurite-paris-6.png",
         "https://file.diplomeo-static.com/crop/450x450/00/00/02/39/23924.jpg",
         "https://mesinfos.fr/content/articles/475/A114475/initial-coblence-avocats.jpg",
-        "https://pbs.twimg.com/media/EEVbf9zU4AAqQIy.jpg",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUDW87_ciG7ChQoiZdccYfwMP_Cucp0vVlkuejEPvA8Q&s",
         "https://t2e2i7f7.rocketcdn.me/wp-content/uploads/2022/11/se-reorienter-dans-linformatique-rentrees-decalees.jpg",
-        "https://t2e2i7f7.rocketcdn.me/wp-content/uploads/2022/07/campus-montevrain-ecole-informatique-4.jpg",
+        "https://walt.community/uploads/media/6221df85c9729_.png",
         "https://t2e2i7f7.rocketcdn.me/wp-content/uploads/2023/04/campus-montpellier-locaux-1-1.jpg",
     ];
 
@@ -124,12 +124,46 @@ function Ecole() {
     }, [expanded]);
     return (
         <div className="container my-5 ecolediv">
-            <h1 className="titreVeille">IPSSI</h1>
-            {/* Utilisation d'un seul 'row' et 'col' pour centrer le contenu */}
+            <h1 className="titreVeille">Parcours</h1> 
             <div className="row justify-content-center">
                 <div className="col-md-8 text-center">
-                    <img className="imagedoc mb-3" src="https://walt.community/uploads/media/6221df85c9729_.png" alt="Documentation IPSSI" />
-                    <p className="card-text">L'IPSSI est une école d'informatique située dans plusieurs ville de France, elle propose des formations en alternance et en initial.</p>
+                <div className="container my-5">
+      <div className="row">
+        <div className="col-12">
+          <ul className="timeline">
+            <li>
+              <div className="timeline-badge"><i className="glyphicon glyphicon-check"></i></div>
+              <div className="timeline-panel">
+                <div className="timeline-heading">
+                  <h4>BTS SIO SLAM</h4>
+                  <h5>ESIC / IPSSI, 2022 - 2024</h5>
+                </div>
+              </div>
+            </li>
+            <li className="timeline-inverted">
+              <div className="timeline-badge"><i className="glyphicon glyphicon-check"></i></div>
+              <div className="timeline-panel">
+                <div className="timeline-heading">
+                  <h4>Stage Informatique Developpement Web</h4>
+                  <h5>Wecyde, 3 mois 2022-2024</h5>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div className="timeline-badge"><i className="glyphicon glyphicon-check"></i></div>
+              <div className="timeline-panel">
+                <div className="timeline-heading">
+                  <h4>Licence Math Informatique</h4>
+                  <h5>Université Paris Saclay, 2019-2022</h5>
+                </div>
+              </div>
+            </li>
+            
+          </ul>
+        </div>
+      </div>
+    </div>
+  
                     <div className='cardphoto  '>
                         <div className="photo-stack mb-3">
                             {images.map((src, index) => (
@@ -138,8 +172,7 @@ function Ecole() {
                         </div>
 
                     </div>
-                    
-                    <a href="https://ecole-ipssi.com/" className="btn btnecole">Visiter</a>
+
                 </div>
 
                 <div >
