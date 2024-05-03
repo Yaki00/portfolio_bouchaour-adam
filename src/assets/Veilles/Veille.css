@@ -1,0 +1,53 @@
+.titreVeille{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    font-size:4vw;
+    color: #2bbd68;
+    background-clip: text;
+    letter-spacing: var(--spacing, 0px);
+    z-index: 10;
+    overflow: hidden;
+    margin-bottom: 50px;
+}
+
+.cardveillle{
+    background-color: rgb(44, 44, 44);
+    box-shadow: 5px 5px 10px 1px rgba(0, 0, 0, 0.438);
+    color: white;
+    display: flex;
+    flex-direction: row;
+    transition: all 0.3s ease;
+    margin-bottom: 20px;
+    
+}
+
+
+.imgveille{
+    width: 500px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.cardveillle.expanded {
+    position: fixed; /* ou 'absolute' selon tes besoins */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+    width: 80%; /* ou toute autre taille appropriée */
+    height: auto;
+    max-height: 90%;
+    overflow-y: auto; /* pour permettre le défilement */
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5); /* effet d'ombre pour ressortir */
+}
+
+.overlay {
+    display: none;
+    /* styles pour obscurcir le reste de la page */
+}
+
+.overlay.show {
+    display: block;
+}

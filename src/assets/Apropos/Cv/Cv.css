@@ -1,0 +1,105 @@
+.divcv{
+    width: 400px;
+    transform: translateX(-300%);
+    transition: all 0.5s ease-in-out;
+    display: none;
+}
+
+.divcv.fixed {
+    position: fixed;
+    top: 35%;
+    left: 29%;
+    /* Autres styles nécessaires */
+}
+
+.divcv.absolute {
+    position: absolute;
+    top: -80px;
+    left: 19%;
+}
+
+.cvIsVisible{
+    transform: translateX(0);
+}
+
+.cvimg img{
+    width: 100%;
+}
+
+.divcv h1{
+    font-weight: 900;
+    text-align: center;
+    color: white;
+    margin: 0;
+    margin-bottom: 40px;
+    
+}
+
+.liencv{
+    margin-top: 5px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(5px);
+    z-index: -10;
+    transition: opacity 0.5s ease-in-out; /* Transition sur l'opacité pendant 0.5 secondes */
+    opacity: 0;
+}
+
+.overlay.show {
+    opacity: 1; /* Opacité pleine lorsque l'overlay est actif */
+    z-index: 10;
+}
+
+.divcv.enlarged {
+    position: fixed;
+    width: 50%; 
+    height: 80%;
+    top: 10%;
+    overflow: scroll;
+    left: 25%;
+    z-index: 11; /* z-index supérieur à celui de l'overlay */
+}
+
+.iconscv{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.iconcv{
+    cursor: pointer;
+    width: 50px;
+}
+
+
+
+@media (max-width: 1920px) {
+    .divcv{
+        width: 300px;
+    }
+  }
+  
+@media (max-height: 880px) {
+    .pav1{
+        position: fixed;
+        width: 320px;
+        scale: 0.8;
+        left: 36.5%;
+        top: 20%;
+        color: white;
+    
+    }
+  }

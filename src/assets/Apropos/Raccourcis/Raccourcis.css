@@ -1,0 +1,25 @@
+.raccourcis{
+    display: flex;
+    width: 300px;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.blockRaccourcis{
+    color: white;
+    position: fixed;
+    width: 300px;
+    height: 100%;
+    top: 75%;
+    left: 75.2%;
+    filter: var(--flou,blur(500px));
+
+}
+
+.blockRaccourcis h1{
+    font-weight: 900;
+    text-align: center;
+    color: white;
+    margin: 0;
+    margin-bottom: 20px;
+}
