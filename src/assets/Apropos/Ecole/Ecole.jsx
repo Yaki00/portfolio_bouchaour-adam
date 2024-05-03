@@ -123,7 +123,7 @@ function Ecole() {
         };
     }, [expanded]);
     return (
-        <div className="container my-5 ecolediv">
+        <div id="parcours" className="container my-5 ecolediv">
             <h1 className="titreVeille">Parcours</h1> 
             <div className="row justify-content-center">
                 <div className="col-md-8 text-center">

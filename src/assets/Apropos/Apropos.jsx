@@ -62,7 +62,7 @@ function Apropos() {
 
     return (
         <>  
-            <div className='approposdivglob'>
+            <div id="apropos"className='approposdivglob'>
                 <div className="containerTitreApropos">
 
                     {showText && <h1 ref={textRef} className="text-apropos">A propos</h1>}

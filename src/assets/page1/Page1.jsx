@@ -62,7 +62,7 @@ function Page1() {
     }, []);
 
     return (
-        <div className='divaccueil'>
+        <div id="page1" className='divaccueil'>
             <h1 className="text-page1">Portfolio </h1>
             <div className='cercle'></div>
         </div>
