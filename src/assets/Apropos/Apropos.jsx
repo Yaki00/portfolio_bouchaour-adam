@@ -13,7 +13,7 @@ function Apropos() {
 
     const handleScroll = () => {
         const scrollY = window.scrollY;
-        console.log(scrollY);
+    
         
         
 
@@ -68,14 +68,11 @@ function Apropos() {
                     {showText && <h1 ref={textRef} className="text-apropos">A propos</h1>}
                 </div>
                 <div className="containerApropos">
-                <Presentation />
-                <Competences />
-                <Raccourcis />
-                <Cv />
-
-                </div>
-                <div>
-
+                    <Presentation />
+                    <Competences />
+                    <Raccourcis />
+                    <Cv />
+                    
                 </div>
 
             </div>

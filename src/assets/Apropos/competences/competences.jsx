@@ -43,9 +43,9 @@ function Competences() {
         
         <div ref={cardCompetence} className={`myCard ${isVisible ? 'visible' : ''}`}>
             <h1>Compétence</h1>
-            <div ref={innerCard} class="innerCard">
-                <div class="frontSide">
-                    <p class="title">FRONT</p>
+            <div ref={innerCard} className="innerCard">
+                <div className="frontSide">
+                    <p className="title">FRONT</p>
                     <img className='imagezoom' width="180" height="180" src="https://img.icons8.com/color/220/css3.png" alt="css3"/>
                     <p>CSS</p>
                     <img className='imagezoom' width="180" height="180" src="https://img.icons8.com/officel/2200/react.png" alt="react"/>
@@ -54,8 +54,8 @@ function Competences() {
                     <p>Angular</p>
                     <img src="" alt="" />
                 </div>
-                <div class="backSide">
-                    <p class="title">BACK</p>
+                <div className="backSide">
+                    <p className="title">BACK</p>
                     <img className='imagezoom' width="180" height="180" src="https://img.icons8.com/nolan/180/symfony.png" alt="symfony"/>
                     <p>Symfony / PHP</p>
                     <img className='imagezoom' width="180" height="180" src="https://img.icons8.com/color/180/python--v1.png" alt="python--v1"/>

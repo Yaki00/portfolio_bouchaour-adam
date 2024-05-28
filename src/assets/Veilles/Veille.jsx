@@ -62,43 +62,44 @@ function Veille() {
             ),
             expanded: (
                 <>
-                    <p>L'intelligence artificielle (IA) est un domaine de l'informatique qui vise à créer des machines capables de fonctionner intelligemment et de manière autonome. Elle englobe des techniques telles que l'apprentissage machine, la vision par ordinateur, et le traitement du langage naturel.</p>
+                    <p>Les ordinateurs neuromorphiques imitent le cerveau humain pour effectuer des tâches de traitement de l'information, offrant des perspectives prometteuses pour l'IA, notamment en termes d'apprentissage en temps réel et d'efficacité énergétique.</p>
         
                     <h2>Introduction</h2>
-                    <p>L'IA est devenue un élément essentiel dans de nombreux domaines, allant de la médecine à l'automobile, en passant par le divertissement et la finance. Elle transforme la façon dont nous interagissons avec la technologie et influence notre quotidien.</p>
+                    <p>Les ordinateurs neuromorphiques sont inspirés par le fonctionnement du cerveau humain. Cette technologie vise à recréer les processus neuronaux pour le traitement de l'information, promettant une révolution dans les domaines de l'intelligence artificielle et du machine learning.</p>
                     
-                    <h2>Développement et Techniques</h2>
-                    <p><b>Technologies Clés :</b></p>
+                    <h2>Comment ça marche ?</h2>
+                    <p>Ces systèmes utilisent des réseaux de neurones artificiels qui imitent les connexions neuronales du cerveau, permettant un traitement de l'information parallèle et une grande efficacité énergétique. Ils sont capables d'apprendre et de s'adapter de manière autonome.</p>
+                    <p><b>Applications potentielles</b></p>
+                    <p>Les ordinateurs neuromorphiques pourraient transformer plusieurs secteurs :</p>
                     <ul>
-                        <li>Apprentissage machine : Utilisation d'algorithmes et de modèles statistiques pour permettre aux machines d'apprendre à partir de données.</li>
-                        <li>Vision par ordinateur : Permet aux machines de comprendre et d'interpréter le monde visuel.</li>
-                        <li>Traitement du langage naturel : Donne aux machines la capacité de lire, comprendre et interpréter le langage humain.</li>
+                        <li>Robotique : pour des robots plus autonomes et adaptables.</li>
+                        <li>Santé : dans le diagnostic et le traitement personnalisé grâce à leur capacité à analyser de grandes quantités de données.</li>
+                        <li>Industrie : optimisation des processus de production en temps réel.</li>
                     </ul>
-                    <p><b>Applications de l'IA :</b></p>
+                    
+                    <h2>Avantages</h2>
+                    <p>Comparés aux ordinateurs traditionnels, les ordinateurs neuromorphiques offrent :</p>
                     <ul>
-                        <li>Assistants virtuels : Siri, Alexa et d'autres assistants utilisent l'IA pour comprendre et répondre aux requêtes vocales.</li>
-                        <li>Diagnostique médical : L'IA peut aider à diagnostiquer des maladies plus rapidement et avec plus de précision.</li>
-                        <li>Véhicules autonomes : L'IA est au cœur du développement des voitures sans conducteur.</li>
+                        <li>Une grande efficacité énergétique.</li>
+                        <li>La capacité d'apprendre et de s'adapter de façon autonome.</li>
+                        <li>Un traitement de l'information en temps réel.</li>
+                        <li>Des temps de réponse rapides grâce au traitement parallèle de l'information.</li>
                     </ul>
-                    <p><b>Exemples Notables :</b></p>
-                    <ul>
-                        <li>AlphaGo : Un programme d'IA développé par DeepMind qui a battu des champions du monde au jeu de Go.</li>
-                        <li>Reconnaissance faciale : Utilisée dans les smartphones et pour la surveillance de sécurité.</li>
-                        <li>Recommandation de contenu : Utilisée par Netflix et YouTube pour recommander des vidéos personnalisées.</li>
-                    </ul>
+
+
                     <h2>Éthique et Défis</h2>
                     <p><b>Questions Éthiques :</b></p>
                     <ul>
                         <li>L'IA pose des questions sur la vie privée, la sécurité des données et le biais algorithmique.</li>
                         <li>Les décisions automatisées de l'IA peuvent avoir des conséquences juridiques et morales importantes.</li>
                     </ul>
-                    <p><b>Défis et Avenir :</b></p>
-                    <ul>
-                        <li>Intégration de l'IA dans la société de manière responsable et éthique.</li>
-                        <li>Développement d'IA explicable et transparente pour renforcer la confiance des utilisateurs.</li>
-                    </ul>
-                    <h2>Conclusion</h2>
-                    <p>L'intelligence artificielle transforme notre monde, offrant des possibilités illimitées tout en soulevant des défis importants. Sa bonne gestion et régulation sont essentielles pour maximiser ses avantages tout en minimisant les risques.</p>
+
+                    <h2>FAQ</h2>
+                    <h3>Quelle est la différence entre les ordinateurs neuromorphiques et les ordinateurs quantiques ?</h3>
+                    <p>Alors que les ordinateurs neuromorphiques sont inspirés par le cerveau humain pour le traitement de l'information, les ordinateurs quantiques utilisent les principes de la mécanique quantique pour effectuer des calculs. Les deux technologies ont des applications potentielles différentes et complémentaires.</p>
+                    
+                    <h2>Les ordinateurs neuromorphiques sont-ils déjà utilisés ?</h2>
+                    <p>Il existe des projets de recherche et des prototypes, mais l'adoption à grande échelle est encore en développement. La complexité de leur conception et la nécessité de nouveaux paradigmes de programmation sont parmi les défis à relever.</p>
                 </>
             )
         }
@@ -137,7 +138,7 @@ function Veille() {
                                 <Card.Text>
                                     {expandedCard === 'deepfake' ? cardText.deepfake.expanded : cardText.deepfake.default}
                                 </Card.Text>
-                                <Button variant="primary" onClick={() => toggleCardSize('deepfake')}>Voir plus</Button>
+                                <Button className='btn btndoc' onClick={() => toggleCardSize('deepfake')}>Voir plus</Button>
                             </Card.Body>
                         </Card>
                     </div>
@@ -145,11 +146,11 @@ function Veille() {
                         <Card className={`cardveillle ${expandedCard === 'ai' ? 'expanded' : ''}`}>
                             <Card.Img className='imgveille' variant="top" src="artificial.png" />
                             <Card.Body>
-                                <Card.Title>L'Intelligence Artificielle</Card.Title>
+                                <Card.Title>Ordinateurs Neuromorphiques</Card.Title>
                                 <Card.Text>
                                 {expandedCard === 'ai' ? cardText.ai.expanded : cardText.ai.default}
                             </Card.Text>
-                                <Button variant="primary" onClick={() => toggleCardSize('ai')}>Voir plus</Button>
+                                <Button className='btn btndoc' onClick={() => toggleCardSize('ai')}>Voir plus</Button>
                             </Card.Body>
                         </Card>
                     </div>

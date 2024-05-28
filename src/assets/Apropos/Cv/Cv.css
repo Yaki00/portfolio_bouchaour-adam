@@ -86,7 +86,7 @@
 
 
 
-@media (max-width: 1920px) {
+/* @media (max-width: 1920px) {
     .divcv{
         width: 300px;
     }
@@ -101,5 +101,32 @@
         top: 20%;
         color: white;
     
+    }
+  } */
+
+  @media (max-height: 1150px) or (max-width: 1000px) {
+    .divcv.fixed {
+        position: fixed;
+        scale: 0.8;
+        top: 35%;
+        left: 29%;
+        /* Autres styles nécessaires */
+    }
+    
+}
+
+@media (max-height: 1030px) {
+    .divcv.fixed {
+        top: 28%;
+        left: 29%;
+        /* Autres styles nécessaires */
+    }
+  }
+
+  @media (max-height: 930px) {
+    .divcv.fixed {
+        top: 10%;
+        left: 40%;
+        /* Autres styles nécessaires */
     }
   }

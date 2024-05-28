@@ -22,19 +22,21 @@ function Ecole() {
                 <section>
                     <h2>Qu'est-ce que le SISR?</h2>
                     <p>Le SISR, ou Solutions d'Infrastructure, Systèmes et Réseaux, est une spécialisation du BTS Services Informatiques aux Organisations. Cette formation prépare les étudiants à concevoir, gérer et maintenir l'infrastructure réseau d'une organisation, en se concentrant sur les compétences techniques nécessaires pour administrer des réseaux, gérer des serveurs, et assurer la sécurité des systèmes d'information.</p>
+                    
+                    <section>
+                        <h2>Matières Enseignées</h2>
+                        <p>Les étudiants en SISR abordent un large éventail de sujets, tels que :</p>
+                        <ul>
+                            <li>Administration Réseau : Configuration et gestion des réseaux informatiques.</li>
+                            <li>Gestion des Serveurs : Installation, configuration et maintenance des serveurs.</li>
+                            <li>Sécurité Informatique : Mise en place de mesures de sécurité pour protéger les données et les systèmes.</li>
+                            <li>Virtualisation : Création et gestion de systèmes virtuels pour optimiser les ressources.</li>
+                            <li>Base de Données : Gestion des bases de données et assurer leur intégrité et leur disponibilité.</li>
+                        </ul>
+                    </section>
                 </section>
 
-                <section>
-                    <h2>Matières Enseignées</h2>
-                    <p>Les étudiants en SISR abordent un large éventail de sujets, tels que :</p>
-                    <ul>
-                        <li>Administration Réseau : Configuration et gestion des réseaux informatiques.</li>
-                        <li>Gestion des Serveurs : Installation, configuration et maintenance des serveurs.</li>
-                        <li>Sécurité Informatique : Mise en place de mesures de sécurité pour protéger les données et les systèmes.</li>
-                        <li>Virtualisation : Création et gestion de systèmes virtuels pour optimiser les ressources.</li>
-                        <li>Base de Données : Gestion des bases de données et assurer leur intégrité et leur disponibilité.</li>
-                    </ul>
-                </section>
+               
 
                 <section>
                     <h2>Débouchés Professionnels</h2>
@@ -128,6 +130,7 @@ function Ecole() {
             <div className="row justify-content-center">
                 <div className="col-md-8 text-center">
                 <div className="container my-5">
+                    
       <div className="row">
         <div className="col-12">
           <ul className="timeline">
@@ -176,7 +179,8 @@ function Ecole() {
                 </div>
 
                 <div >
-                    <h3>BTS SIO</h3>
+                    <h3 style={{ color: ' #2bbd68 ' }}>BTS SIO</h3>
+                    
                     <p>Le BTS SIO (Services Informatiques aux Organisations) est une formation de niveau bac+2 qui permet d'obtenir un diplôme d'État. Il est possible de suivre cette formation en alternance ou en initial.</p>
                     <div className="row">
                         <div className="col-md-6">

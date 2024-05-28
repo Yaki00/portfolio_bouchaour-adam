@@ -45,12 +45,12 @@ function Cv() {
             <div ref={cvDiv} className={`divcv ${cvPosition} ${cvIsVisible ? 'cvIsVisible' : ''} ${isCvEnlarged ? 'enlarged' : ''}`}>
                 <h1>Curriculum Vitae</h1>
                 <div className='cvimg deploiementcv' onClick={toggleCvSize}>
-                    <img src="./bouchaour-adam-cv.jpg" alt="CV" />
+                    <img src="./CV Bouchaour Adam.jpg" alt="CV" />
                 </div>
 
                 <div className='iconscv'>
                     <img className='iconcv' src="./icons8-loupe-50.png" alt="" onClick={toggleCvSize}  />
-                    <a href="./bouchaour-adam-cv.pdf" download>
+                    <a href="./Bouchaour Adam (2).pdf" download>
                         <img className='iconcv' src="./icons8-download-24.png" alt="" />
                     </a>
                 </div>

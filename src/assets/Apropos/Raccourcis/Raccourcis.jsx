@@ -70,7 +70,7 @@ function Raccourcis() {
                         <p>GitHub</p>
                         <img className='imgraccourcis' width="50" height="50" src="/portfolio_bouchaour-adam/icons8-github-50.png" alt="github" />
                     </a>
-                    <a href="mailto:bouchaouradam@gmail.com" email className='link'>
+                    <a href="mailto:bouchaouradam@gmail.com" email="true" className='link'>
                         <p>Mail</p>
                         <img className='imgraccourcis'width="50" height="50" src="/portfolio_bouchaour-adam/icons8-mail-50.png" alt="resume" />
                     </a>

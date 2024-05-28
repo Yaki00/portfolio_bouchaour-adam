@@ -121,7 +121,7 @@
     }
   }
   
-  @media (max-height: 880px) {
+  @media (max-height: 1150px) {
     .pav1{
         position: fixed;
         width: 320px;
@@ -133,3 +133,15 @@
     }
   }
   
+
+  @media (max-height: 930px) {
+    .pav1{
+        position: fixed;
+        width: 320px;
+        scale: 0.8;
+        left: 30%;
+        top: 28%;
+        color: white;
+    
+    }
+  }
