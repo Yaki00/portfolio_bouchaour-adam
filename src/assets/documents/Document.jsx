@@ -93,7 +93,7 @@ function Document() {
 
         {
             title: "Test Unitaire",
-            imgSrc: "/testunitaire.jpg",
+            imgSrc: "/portfolio_bouchaour-adam/testunitaire.jpg",
             description: "Test unitaire de l'application web / mobile M2L AP3 / AP4",
             downloadLink: "/portfolio_bouchaour-adam/E5_Tests_Unitaires.pdf",
             category: "Ecole",
@@ -110,7 +110,7 @@ function Document() {
         },
 
         {
-            title: "Feely",
+            title: "Feedly",
             imgSrc: "/portfolio_bouchaour-adam/feedly.jpg",
             description: " Feedly est une solution qui permet de suivr des flux RSS, de cette façons les utilisateurs ont un support de veille informationnelle. ",
             downloadLink: "/portfolio_bouchaour-adam/Feedly.pdf",
@@ -119,7 +119,7 @@ function Document() {
         },
         {
             title: "Ubuntu",
-            imgSrc: "/ubuntu.jpg",
+            imgSrc: "/portfolio_bouchaour-adam/ubuntu.jpg",
             description: " Guide d'installation et de configuration d'un serveur Ubuntu sur une machine virtuelle",
             downloadLink: "/portfolio_bouchaour-adam/Déploiement-VM.pdf",
             category: "Ecole",
@@ -127,7 +127,7 @@ function Document() {
         },
         {
             title: "Figma",
-            imgSrc: "/figma.png",
+            imgSrc: "/portfolio_bouchaour-adam/figma.png",
             description: " Documentation de l'outil Figma",
             downloadLink: "/portfolio_bouchaour-adam/Figma.pdf",
             category: "Entreprise",
@@ -135,7 +135,7 @@ function Document() {
         },
         {
             title: "Poke Api",
-            imgSrc: "/pokeapi.png",
+            imgSrc: "/portfolio_bouchaour-adam/pokeapi.png",
             description: " Documentation de l'API PokeApi ",
             downloadLink: "/portfolio_bouchaour-adam/DOC_pokeapi.pdf",
             category: "Ecole",
@@ -143,7 +143,7 @@ function Document() {
         },
         {
             title: "SPE",
-            imgSrc: "/SPE.jpg",
+            imgSrc: "/portfolio_bouchaour-adam/SPE.jpg",
             description: " Documentation pour le site SPE",
             downloadLink: "/portfolio_bouchaour-adam/SPE.pdf",
             category: "Entreprise",
@@ -151,7 +151,7 @@ function Document() {
         },
         {
             title: "A110 Club",
-            imgSrc: "/Alpine-Logo.png",
+            imgSrc: "/portfolio_bouchaour-adam/Alpine-Logo.png",
             description: " Documentation pour le site A110 Club",
             downloadLink: "/portfolio_bouchaour-adam/A110_Club_Documentation.pdf",
             category: "Entreprise",
