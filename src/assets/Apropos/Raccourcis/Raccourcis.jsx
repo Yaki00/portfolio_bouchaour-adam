@@ -62,11 +62,11 @@ function Raccourcis() {
             <div ref={blockRaccouris} className='blockRaccourcis'>
                 <h1>Lien rapide </h1>
                 <div className="raccourcis">
-                    <a href="https://github.com/Yaki00" className='link'>
+                    <a href="https://www.linkedin.com/in/bouchaour-adam-95b641226/" className='link'>
                         <p>Linkedin</p>
                         <img className='imgraccourcis' width="50" height="50" src="/portfolio_bouchaour-adam/icons8-linkedin-50.png" alt="linkedin" />
                     </a>
-                    <a href="https://www.linkedin.com/in/bouchaour-adam-95b641226/" className='link'>
+                    <a href="https://github.com/Yaki00" className='link'>
                         <p>GitHub</p>
                         <img className='imgraccourcis' width="50" height="50" src="/portfolio_bouchaour-adam/icons8-github-50.png" alt="github" />
                     </a>
