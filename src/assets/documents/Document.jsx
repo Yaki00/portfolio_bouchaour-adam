@@ -54,7 +54,7 @@ function Document() {
             title: "GLPI",
             imgSrc: "https://www.linuxtricks.fr/upload/logo-glpi.png",
             description: "Guide d'installation et de configuration de GLPI avec test",
-            downloadLink: "/portfolio_bouchaour-adam/public/GLPI_2.pdf",
+            downloadLink: "/portfolio_bouchaour-adam/GLPI_2.pdf",
             category: "Ecole",
             expandable: false
         },

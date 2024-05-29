@@ -130,3 +130,16 @@
         /* Autres styles nécessaires */
     }
   }
+  @media (max-height: 740px) {
+    .divcv.fixed {
+        top: 0%;
+        left: 40%;
+        /* Autres styles nécessaires */
+    }
+    .divcv.enlarged{
+        top: 0%;
+        left: 12%;
+        width: 80%;
+        height: 80%;
+    }
+  }
