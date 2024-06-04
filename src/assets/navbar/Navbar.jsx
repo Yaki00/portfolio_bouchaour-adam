@@ -48,7 +48,7 @@ function Sidebar() {
           </li>
           <li className="nav-item">
             <a className="nav-link" href="#parcours">
-              <i className="bi bi-book"></i> Parocurs
+              <i className="bi bi-book"></i> Parcours
             </a>
           </li>
           <li className="nav-item">
