@@ -1,5 +1,5 @@
 import './navbar.css'
-import React, { useState, useEffect } from 'react';
+import { useEffect } from 'react';
 function Sidebar() {
 
 
@@ -49,11 +49,6 @@ function Sidebar() {
           <li className="nav-item">
             <a className="nav-link" href="#parcours">
               <i className="bi bi-book"></i> Parcours
-            </a>
-          </li>
-          <li className="nav-item">
-            <a className="nav-link" href="#veilles">
-              <i className="bi bi-clock"></i> Veilles
             </a>
           </li>
           <li className="nav-item">
