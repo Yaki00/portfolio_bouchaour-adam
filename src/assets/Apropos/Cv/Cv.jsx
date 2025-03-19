@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import "./Cv.css";
 
 function Cv() {
@@ -50,7 +50,7 @@ function Cv() {
 
                 <div className='iconscv'>
                     <img className='iconcv' src="./icons8-loupe-50.png" alt="" onClick={toggleCvSize}  />
-                    <a href="./Bouchaour Adam (2).pdf" download>
+                    <a href="./Bouchaour Adam (4).pdf" download>
                         <img className='iconcv' src="./icons8-download-24.png" alt="" />
                     </a>
                 </div>
